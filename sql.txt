@@ -1,0 +1,15 @@
+Table - records
+ACCONT_NO integer
+PASSWORD integer
+NAME  char(20)
+CR_AMT integer
+balance integer
+withdrawl   integer
+
+ create table records
+    -> (accont_no integer not null primary key,
+    -> password integer not null,
+    -> name char(20) not null,
+    -> cr_amt integer default 0,
+    -> balance integer default 0,
+    -> withdrawl integer default 0);
